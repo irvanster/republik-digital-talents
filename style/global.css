@@ -1,0 +1,40 @@
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn {
+    border: 0;
+    background-color: #ddd;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn.primary {
+    background-color: green;
+    color: white;
+}
+.btn.warning {
+    background-color: yellow;
+    color: black;
+}
+.btn.success {
+    background-color: #65f874;
+    color: black;
+}
+.btn.info {
+    background-color: rgb(73, 213, 255);
+    color: black;
+}
+.btn:hover {
+    /* scale 1 = ukuran asli */
+    /* scale 1.1 = ukuran asli */
+    transform: scale(1.1);
+}
+
+.btn.primary:hover {
+    background-color: #8bfe97;
+    /* color: blue; */
+}
