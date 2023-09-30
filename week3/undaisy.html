@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tokopaedi</title>
+  </head>
+  <body class="bg-[#eee]">
+    <!-- rem = relative emphasis
+    em = emphasis -->
+    <!-- default = 1 rem -> 16px -->
+    <!-- Arbitrary values h-[20rem] -->
+    <nav class="bg-indigo-700">
+      <div class="h-14 flex justify-between items-center">
+        <div class="bg-[#333]">
+          <img class="w-14 h-15" src="./brand.jpeg" />
+        </div>
+        <div class="flex lg:hidden">
+          <p class="text-white px-5" id="show-nav-mobile"  onclick="showMobileNav(true)">Menu</p>
+          <p class="hidden px-5 text-white" id="close-nav-mobile" onclick="showMobileNav(false)">X</p>
+        </div>
+        <div class="hidden text-white lg:flex">
+          <a class="px-2" href="#">Home</a>
+          <a class="px-2" href="#">Products</a>
+          <a class="px-2" href="#">About</a>
+        </div>
+      </div>
+      <div class="flex-col hidden bg-white" id="navbar-mobile">
+        <a class="px-2 border-b-2 p-5 hover:bg-[#aaa]" href="#">Home</a>
+        <a class="px-2 border-b-2 p-5 hover:bg-[#aaa]" href="#">Products</a>
+        <a class="px-2 border-b-2 p-5 hover:bg-[#aaa]" href="#">About</a>
+      </div>
+    </nav>
+    <header></header>
+    <main class="flex flex-wrap">
+      <div class="w-full md:w-[50%] lg:w-[33.333%] xl:w-[25%]">
+        <div class="p-5 m-2 bg-white shadow-xl">
+          <img src="./produk2.jpg" class="w-full" />
+          <h1 class="text-2xl font-semibold mb-5">Baju Kokoh</h1>
+          <button
+            class="bg-blue-600 px-5 py-1 text-white rounded transition ease-in-out delay-300 hover:bg-blue-700 hover:drop-shadow-xl"
+          >
+            Beli
+          </button>
+        </div>
+      </div>
+      <div class="w-full md:w-[50%] lg:w-[33.333%] xl:w-[25%]">
+        <div class="p-5 m-2 bg-white shadow-xl">
+          <img src="./produk2.jpg" class="w-full" />
+          <h1 class="text-2xl font-semibold mb-5">Baju Kokoh</h1>
+          <button
+            class="bg-blue-600 px-5 py-1 text-white rounded transition ease-in-out delay-300 hover:bg-blue-700 hover:drop-shadow-xl"
+          >
+            Beli
+          </button>
+        </div>
+      </div>
+      <div class="w-full md:w-[50%] lg:w-[33.333%] xl:w-[25%]">
+        <div class="p-5 m-2 bg-white shadow-xl">
+          <img src="./produk2.jpg" class="w-full" />
+          <h1 class="text-2xl font-semibold mb-5">Baju Kokoh</h1>
+          <button
+            class="bg-blue-600 px-5 py-1 text-white rounded transition ease-in-out delay-300 hover:bg-blue-700 hover:drop-shadow-xl"
+          >
+            Beli
+          </button>
+        </div>
+      </div>
+      <div class="w-full md:w-[50%] lg:w-[33.333%] xl:w-[25%]">
+        <div class="p-5 m-2 bg-white shadow-xl">
+          <img src="./produk2.jpg" class="w-full" />
+          <h1 class="text-2xl font-semibold mb-5">Baju Kokoh</h1>
+          <button
+            class="bg-blue-600 px-5 py-1 text-white rounded transition ease-in-out delay-300 hover:bg-blue-700 hover:drop-shadow-xl"
+          >
+            Beli
+          </button>
+        </div>
+      </div>
+      <div class="w-full md:w-[50%] lg:w-[33.333%] xl:w-[25%]">
+        <div class="p-5 m-2 bg-white shadow-xl">
+          <img src="./produk2.jpg" class="w-full" />
+          <h1 class="text-2xl font-semibold mb-5">Baju Kokoh</h1>
+          <button
+            class="bg-blue-600 px-5 py-1 text-white rounded transition ease-in-out delay-300 hover:bg-blue-700 hover:drop-shadow-xl"
+          >
+            Beli
+          </button>
+        </div>
+      </div>
+      <div class="w-full md:w-[50%] lg:w-[33.333%] xl:w-[25%]">
+        <div class="p-5 m-2 bg-white shadow-xl">
+          <img src="./produk2.jpg" class="w-full" />
+          <h1 class="text-2xl font-semibold mb-5">Baju Kokoh</h1>
+          <button
+            class="bg-blue-600 px-5 py-1 text-white rounded transition ease-in-out delay-300 hover:bg-blue-700 hover:drop-shadow-xl"
+          >
+            Beli
+          </button>
+        </div>
+      </div>
+      <div class="w-full md:w-[50%] lg:w-[33.333%] xl:w-[25%]">
+        <div class="p-5 m-2 bg-white shadow-xl">
+          <img src="./produk2.jpg" class="w-full" />
+          <h1 class="text-2xl font-semibold mb-5">Baju Kokoh</h1>
+          <button
+            class="bg-blue-600 px-5 py-1 text-white rounded transition ease-in-out delay-300 hover:bg-blue-700 hover:drop-shadow-xl"
+          >
+            Beli
+          </button>
+        </div>
+      </div>
+      <div class="w-full md:w-[50%] lg:w-[33.333%] xl:w-[25%]">
+        <div class="p-5 m-2 bg-white shadow-xl">
+          <img src="./produk2.jpg" class="w-full" />
+          <h1 class="text-2xl font-semibold mb-5">Baju Kokoh</h1>
+          <button
+            class="bg-blue-600 px-5 py-1 text-white rounded transition ease-in-out delay-300 hover:bg-blue-700 hover:drop-shadow-xl"
+          >
+            Beli
+          </button>
+        </div>
+      </div>
+      <div class="w-full md:w-[50%] lg:w-[33.333%] xl:w-[25%]">
+        <div class="p-5 m-2 bg-white shadow-xl">
+          <img src="./produk2.jpg" class="w-full" />
+          <h1 class="text-2xl font-semibold mb-5">Baju Kokoh</h1>
+          <button
+            class="bg-blue-600 px-5 py-1 text-white rounded transition ease-in-out delay-300 hover:bg-blue-700 hover:drop-shadow-xl"
+          >
+            Beli
+          </button>
+        </div>
+      </div>
+      <div class="w-full md:w-[50%] lg:w-[33.333%] xl:w-[25%]">
+        <div class="p-5 m-2 bg-white shadow-xl">
+          <img src="./produk2.jpg" class="w-full" />
+          <h1 class="text-2xl font-semibold mb-5">Baju Kokoh</h1>
+          <button
+            class="bg-blue-600 px-5 py-1 text-white rounded transition ease-in-out delay-300 hover:bg-blue-700 hover:drop-shadow-xl"
+          >
+            Beli
+          </button>
+        </div>
+      </div>
+    </main>
+    <script>
+      function showMobileNav(show) {
+          const showNav = document.getElementById('show-nav-mobile')
+          const closeNav = document.getElementById('close-nav-mobile')
+          const navbarMobile = document.getElementById("navbar-mobile");
+        if(show == true) {
+            showNav.style.display = "none"
+            closeNav.style.display = "flex"
+            navbarMobile.style.display = "flex";
+        }else {
+            showNav.style.display = "flex"
+            closeNav.style.display = "none"
+            navbarMobile.style.display = "none";
+
+        }
+      }
+      // const showMobileNav = ()=> { //arrow function
+      //     //bikin variable
+      //     const element = document.getElementById('navbar-mobile')
+      //     element.style.display = "flex"
+      // }
+    </script>
+  </body>
+</html>
