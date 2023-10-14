@@ -1,0 +1,31 @@
+1. apa itu backend -> BE: server.
+	type archisitechture  
+	1. monolitch: backend, frontend, database -> jadi satu project
+  	2. microservices -> backend, frontend, database bisa dipisah.
+           -> users_sp_db
+           -> komunikasi -> restful api -> json, form data, urlencoded
+		-> gcrcp, graphql, websocket, webrtc
+        
+2. bagaimana cara komunikasi antara front end dan backend
+   -> rest api (json), +http method, http status code | graphql+, websocket=realtime+
+
+   -> HTTP METHOD / HTTP REQ METHOD
+     -> GET, POST, PUT, PATCH, DELETE
+     -> mengambil, ngirim, replace, update, delete
+   -> form-data: form dengan upload file, di html -> ectype="multipart/form-data"
+   -> url-encoded: form biasa tanpa adanya file, dihtml -> semua form kecuali file
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+   -> HTTP STATUS CODE:
+      -> 200 : success (get)
+      -> 201 : created (post)
+      -> 400 : bad request (salah diuser, 400) (contoh: login salah password,dll)
+      -> 401/402/403: 
+      -> 404 : ketika url tidak ditemukan
+ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#successful_responses
+3. http method dan http status code
+4. setup/initialize backend
+5. database
+------------------------------------------------------
+6. MVC / MRC
+7. auth dan otorization (enkripsi & hashing).
+8. deploy backend/fe
